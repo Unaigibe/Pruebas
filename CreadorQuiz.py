@@ -38,3 +38,6 @@ doc.drawString(300, 850, opciones)
 doc.drawString(600, 950, diccionarioFinal['correcta'])
 
 doc.save()
+
+#URL -->https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=boolean
+#API -->https://opentdb.com/api_config.php
