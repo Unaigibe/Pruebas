@@ -34,8 +34,7 @@ doc = canvas.Canvas("Quiz.pdf")
 
 #Escribimos una cadena de Texto dentro del documento
 doc.drawString(100, 750, diccionarioFinal['pregunta'])
-doc.drawString(300, 850, opciones)
-doc.drawString(600, 950, diccionarioFinal['correcta'])
+
 
 doc.save()
 
